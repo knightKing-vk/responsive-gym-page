@@ -1,0 +1,24 @@
+.bgimg {
+    background-image: url("./Backgroundimage.jpg");
+}
+
+.phone-size {
+    display: none;
+}
+
+.center {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .laptop-size {
+        display: none;
+    }
+    .phone-size {
+        display: block;
+    }
+}
